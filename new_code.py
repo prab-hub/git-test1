@@ -11,5 +11,3 @@ params = {
 }
 response = requests.get(base_url, headers=headers, params=params)
 print(response)
-
-print(response.text)
